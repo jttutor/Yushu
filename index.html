@@ -65,13 +65,47 @@ table.pay tr.grand td.amt{color:#FAB005}
 .navbar{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
 .navbar a{display:inline-block;padding:6px 15px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;background:#fff;color:#6B6B6B;box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .navbar a.on{background:#37352F;color:#fff}
+.fixbox{background:#fff;border-radius:8px;padding:16px 20px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.fixbox h3{font-size:14px;margin-bottom:10px}
+.fixrow{display:flex;gap:10px;flex-wrap:wrap}
+.fx{flex:1;min-width:230px;background:#F7F6F3;border-radius:6px;padding:11px 14px}
+.fx .l{font-size:11px;color:#9B9A97;margin-bottom:3px}
+.fx .t{font-size:15px;font-weight:700}
+.fx .s{font-size:11.5px;color:#6B6B6B;margin-top:3px}
+.fx .p{font-size:18px;font-weight:700;color:#D9480F;margin-top:4px}
+.mbox{background:#fff;border-radius:8px;margin-bottom:14px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.mhd{background:#37352F;color:#fff;padding:9px 16px;font-size:15px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.mhd span{font-size:12px;font-weight:400;color:#C9C6C0}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;padding:10px}
+.cd{min-height:46px;border-radius:5px;padding:4px 5px;font-size:11px;background:#FAFAF8}
+.cd.hd{min-height:0;background:none;text-align:center;font-weight:700;color:#9B9A97;font-size:11.5px;padding:2px}
+.cd b{display:block;font-size:12.5px}
+.cd i{display:block;font-style:normal;font-size:9.5px;color:#6B6B6B;margin-top:2px;line-height:1.25}
+.cd.wd{background:#E7F5FF;color:#1971C2} .cd.wd i{color:#1971C2}
+.cd.sa{background:#FFF0E6;color:#D9480F} .cd.sa i{color:#D9480F}
+.cd.off{background:#F2F1EF;color:#B3B2AE} .cd.off i{color:#C5C4C0}
+.mt{width:100%;border-collapse:collapse}
+.mt td{padding:8px 14px;font-size:12.5px;border-top:1px solid #F2F1EF}
+.mt td.c{text-align:center;white-space:nowrap}
+.mt td.a{text-align:right;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.mt tr.tot td{background:#FFF9DB;font-weight:700}
+.grand{background:#37352F;color:#fff;border-radius:8px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.grand .l{font-size:12px;color:#C9C6C0}
+.grand .v{font-size:26px;font-weight:700;color:#FAB005}
+.navbar{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.navbar a{display:inline-block;padding:6px 15px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;background:#fff;color:#6B6B6B;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.navbar a.on{background:#37352F;color:#fff}
+.divider{background:#C9A24E;color:#fff;border-radius:8px;padding:11px 18px;font-size:16px;font-weight:700;margin:26px 0 14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.divider small{font-size:12px;font-weight:400;color:#FFF3BF}
+
 </style>
 </head>
 <body>
-<div class="page-title">毓書 · 2026年 8月行程</div>
-<div class="navbar"><a class="on" href="index.html">8 月（夏令營）</a><a href="9-12.html">9 ～ 12 月（固定班表）</a></div>
-
+<div class="page-title">毓書 · 2026年 行程與薪資</div>
 <div class="page-sub">兆婷藝術學院 · <span class="warn">可上班日只有 4 天：8/6（四）、8/14（五）、8/20（四）、8/26（三）</span><br>費率<b>比照庭楓</b>：助教 短課$200 / 長課$300 / 午休顧班$300 / 礁溪助教$300 / <b>行政學習＋整潔 $200/hr</b></div>
+<div class="navbar"><a href="#aug">8 月（夏令營）</a><a href="#sepdec">9 ～ 12 月（固定班表）</a></div>
+<div id="aug"></div>
+
 
 <div class="legend">
     <span><span class="dot" style="background:#22B8CF"></span>夏令營助教</span>
@@ -153,5 +187,63 @@ table.pay tr.grand td.amt{color:#FAB005}
 <tr><td>8/26</td><td>三</td><td>13:30出發·14:00-15:30</td><td><span class="role r-jx">助教</span></td><td>礁溪才藝課（廖老師主教）</td><td>礁溪助教 $300</td><td class="amt">$300</td></tr>
 <tr class="sum"><td colspan="6">8/26（三）小計</td><td class="amt">$600</td></tr>
 <tr class="grand"><td colspan="6">8月合計</td><td class="amt">$4,300</td></tr></table></div>
+
+<div id="sepdec"></div>
+<div class="divider"><span>▼ 以下為 9 ～ 12 月 固定班表 ▼</span><small>行政事務 ＋ 環境整潔為主 · 時薪 $200 · 國定假日照常上班，只休週日</small></div>
+
+<div class="fixbox">
+  <h3>📌 固定班表</h3>
+  <div class="fixrow">
+    <div class="fx"><div class="l">週一 ～ 週五</div><div class="t">18:00 － 21:00</div><div class="s">每天 3 小時</div><div class="p">$600 / 天</div></div>
+    <div class="fx"><div class="l">週六</div><div class="t">08:30 － 12:10<br>12:40 － 17:30</div><div class="s">中間休息 30 分鐘（12:10-12:40，不計薪）· 實際工作 8.5 小時<br><b style="color:#5F3DC4">16:00-17:30 魔術方塊課 跟課學習</b>（含在班內，未來要帶班當老師）</div><div class="p">$1,700 / 天</div></div>
+    <div class="fx"><div class="l">週日</div><div class="t">休息</div><div class="s">全月唯一的休息日（國定假日不休）</div><div class="p">—</div></div>
+  </div>
+</div>
+
+<div class="grand"><div><div class="l">9 ～ 12 月薪水總計</div><div style="font-size:12px;color:#C9C6C0;margin-top:2px">平日 88 天　·　週六 17 天</div></div><div class="v">$81,700</div></div>
+
+<div class="mbox">
+  <div class="mhd">9 月<span>平日 22 天　·　週六 4 天</span></div>
+  <div class="cal"><div class="cd hd">一</div><div class="cd hd">二</div><div class="cd hd">三</div><div class="cd hd">四</div><div class="cd hd">五</div><div class="cd hd">六</div><div class="cd hd">日</div><div class="cd"></div><div class="cd wd"><b>1</b><i>18:00-21:00</i></div><div class="cd wd"><b>2</b><i>18:00-21:00</i></div><div class="cd wd"><b>3</b><i>18:00-21:00</i></div><div class="cd wd"><b>4</b><i>18:00-21:00</i></div><div class="cd sa"><b>5</b><i>8:30-17:30</i></div><div class="cd off"><b>6</b><i>休</i></div><div class="cd wd"><b>7</b><i>18:00-21:00</i></div><div class="cd wd"><b>8</b><i>18:00-21:00</i></div><div class="cd wd"><b>9</b><i>18:00-21:00</i></div><div class="cd wd"><b>10</b><i>18:00-21:00</i></div><div class="cd wd"><b>11</b><i>18:00-21:00</i></div><div class="cd sa"><b>12</b><i>8:30-17:30</i></div><div class="cd off"><b>13</b><i>休</i></div><div class="cd wd"><b>14</b><i>18:00-21:00</i></div><div class="cd wd"><b>15</b><i>18:00-21:00</i></div><div class="cd wd"><b>16</b><i>18:00-21:00</i></div><div class="cd wd"><b>17</b><i>18:00-21:00</i></div><div class="cd wd"><b>18</b><i>18:00-21:00</i></div><div class="cd sa"><b>19</b><i>8:30-17:30</i></div><div class="cd off"><b>20</b><i>休</i></div><div class="cd wd"><b>21</b><i>18:00-21:00</i></div><div class="cd wd"><b>22</b><i>18:00-21:00</i></div><div class="cd wd"><b>23</b><i>18:00-21:00</i></div><div class="cd wd"><b>24</b><i>18:00-21:00</i></div><div class="cd wd"><b>25</b><i>18:00-21:00</i></div><div class="cd sa"><b>26</b><i>8:30-17:30</i></div><div class="cd off"><b>27</b><i>休</i></div><div class="cd wd"><b>28</b><i>18:00-21:00</i></div><div class="cd wd"><b>29</b><i>18:00-21:00</i></div><div class="cd wd"><b>30</b><i>18:00-21:00</i></div></div>
+  <table class="mt">
+    <tr><td>平日（一～五）18:00-21:00</td><td class="c">22 天</td><td class="c">3hr × $200</td><td class="a">$13,200</td></tr>
+    <tr><td>週六 8:30-12:10 ＋ 12:40-17:30<br><span style="font-size:11px;color:#5F3DC4">含 16:00-17:30 魔術方塊跟課</span></td><td class="c">4 天</td><td class="c">8.5hr × $200</td><td class="a">$6,800</td></tr>
+    <tr class="tot"><td colspan="3">9 月合計</td><td class="a">$20,000</td></tr>
+  </table>
+</div>
+<div class="mbox">
+  <div class="mhd">10 月<span>平日 22 天　·　週六 5 天</span></div>
+  <div class="cal"><div class="cd hd">一</div><div class="cd hd">二</div><div class="cd hd">三</div><div class="cd hd">四</div><div class="cd hd">五</div><div class="cd hd">六</div><div class="cd hd">日</div><div class="cd"></div><div class="cd"></div><div class="cd"></div><div class="cd wd"><b>1</b><i>18:00-21:00</i></div><div class="cd wd"><b>2</b><i>18:00-21:00</i></div><div class="cd sa"><b>3</b><i>8:30-17:30</i></div><div class="cd off"><b>4</b><i>休</i></div><div class="cd wd"><b>5</b><i>18:00-21:00</i></div><div class="cd wd"><b>6</b><i>18:00-21:00</i></div><div class="cd wd"><b>7</b><i>18:00-21:00</i></div><div class="cd wd"><b>8</b><i>18:00-21:00</i></div><div class="cd wd"><b>9</b><i>18:00-21:00</i></div><div class="cd sa"><b>10</b><i>8:30-17:30</i></div><div class="cd off"><b>11</b><i>休</i></div><div class="cd wd"><b>12</b><i>18:00-21:00</i></div><div class="cd wd"><b>13</b><i>18:00-21:00</i></div><div class="cd wd"><b>14</b><i>18:00-21:00</i></div><div class="cd wd"><b>15</b><i>18:00-21:00</i></div><div class="cd wd"><b>16</b><i>18:00-21:00</i></div><div class="cd sa"><b>17</b><i>8:30-17:30</i></div><div class="cd off"><b>18</b><i>休</i></div><div class="cd wd"><b>19</b><i>18:00-21:00</i></div><div class="cd wd"><b>20</b><i>18:00-21:00</i></div><div class="cd wd"><b>21</b><i>18:00-21:00</i></div><div class="cd wd"><b>22</b><i>18:00-21:00</i></div><div class="cd wd"><b>23</b><i>18:00-21:00</i></div><div class="cd sa"><b>24</b><i>8:30-17:30</i></div><div class="cd off"><b>25</b><i>休</i></div><div class="cd wd"><b>26</b><i>18:00-21:00</i></div><div class="cd wd"><b>27</b><i>18:00-21:00</i></div><div class="cd wd"><b>28</b><i>18:00-21:00</i></div><div class="cd wd"><b>29</b><i>18:00-21:00</i></div><div class="cd wd"><b>30</b><i>18:00-21:00</i></div><div class="cd sa"><b>31</b><i>8:30-17:30</i></div></div>
+  <table class="mt">
+    <tr><td>平日（一～五）18:00-21:00</td><td class="c">22 天</td><td class="c">3hr × $200</td><td class="a">$13,200</td></tr>
+    <tr><td>週六 8:30-12:10 ＋ 12:40-17:30<br><span style="font-size:11px;color:#5F3DC4">含 16:00-17:30 魔術方塊跟課</span></td><td class="c">5 天</td><td class="c">8.5hr × $200</td><td class="a">$8,500</td></tr>
+    <tr class="tot"><td colspan="3">10 月合計</td><td class="a">$21,700</td></tr>
+  </table>
+</div>
+<div class="mbox">
+  <div class="mhd">11 月<span>平日 21 天　·　週六 4 天</span></div>
+  <div class="cal"><div class="cd hd">一</div><div class="cd hd">二</div><div class="cd hd">三</div><div class="cd hd">四</div><div class="cd hd">五</div><div class="cd hd">六</div><div class="cd hd">日</div><div class="cd"></div><div class="cd"></div><div class="cd"></div><div class="cd"></div><div class="cd"></div><div class="cd"></div><div class="cd off"><b>1</b><i>休</i></div><div class="cd wd"><b>2</b><i>18:00-21:00</i></div><div class="cd wd"><b>3</b><i>18:00-21:00</i></div><div class="cd wd"><b>4</b><i>18:00-21:00</i></div><div class="cd wd"><b>5</b><i>18:00-21:00</i></div><div class="cd wd"><b>6</b><i>18:00-21:00</i></div><div class="cd sa"><b>7</b><i>8:30-17:30</i></div><div class="cd off"><b>8</b><i>休</i></div><div class="cd wd"><b>9</b><i>18:00-21:00</i></div><div class="cd wd"><b>10</b><i>18:00-21:00</i></div><div class="cd wd"><b>11</b><i>18:00-21:00</i></div><div class="cd wd"><b>12</b><i>18:00-21:00</i></div><div class="cd wd"><b>13</b><i>18:00-21:00</i></div><div class="cd sa"><b>14</b><i>8:30-17:30</i></div><div class="cd off"><b>15</b><i>休</i></div><div class="cd wd"><b>16</b><i>18:00-21:00</i></div><div class="cd wd"><b>17</b><i>18:00-21:00</i></div><div class="cd wd"><b>18</b><i>18:00-21:00</i></div><div class="cd wd"><b>19</b><i>18:00-21:00</i></div><div class="cd wd"><b>20</b><i>18:00-21:00</i></div><div class="cd sa"><b>21</b><i>8:30-17:30</i></div><div class="cd off"><b>22</b><i>休</i></div><div class="cd wd"><b>23</b><i>18:00-21:00</i></div><div class="cd wd"><b>24</b><i>18:00-21:00</i></div><div class="cd wd"><b>25</b><i>18:00-21:00</i></div><div class="cd wd"><b>26</b><i>18:00-21:00</i></div><div class="cd wd"><b>27</b><i>18:00-21:00</i></div><div class="cd sa"><b>28</b><i>8:30-17:30</i></div><div class="cd off"><b>29</b><i>休</i></div><div class="cd wd"><b>30</b><i>18:00-21:00</i></div></div>
+  <table class="mt">
+    <tr><td>平日（一～五）18:00-21:00</td><td class="c">21 天</td><td class="c">3hr × $200</td><td class="a">$12,600</td></tr>
+    <tr><td>週六 8:30-12:10 ＋ 12:40-17:30<br><span style="font-size:11px;color:#5F3DC4">含 16:00-17:30 魔術方塊跟課</span></td><td class="c">4 天</td><td class="c">8.5hr × $200</td><td class="a">$6,800</td></tr>
+    <tr class="tot"><td colspan="3">11 月合計</td><td class="a">$19,400</td></tr>
+  </table>
+</div>
+<div class="mbox">
+  <div class="mhd">12 月<span>平日 23 天　·　週六 4 天</span></div>
+  <div class="cal"><div class="cd hd">一</div><div class="cd hd">二</div><div class="cd hd">三</div><div class="cd hd">四</div><div class="cd hd">五</div><div class="cd hd">六</div><div class="cd hd">日</div><div class="cd"></div><div class="cd wd"><b>1</b><i>18:00-21:00</i></div><div class="cd wd"><b>2</b><i>18:00-21:00</i></div><div class="cd wd"><b>3</b><i>18:00-21:00</i></div><div class="cd wd"><b>4</b><i>18:00-21:00</i></div><div class="cd sa"><b>5</b><i>8:30-17:30</i></div><div class="cd off"><b>6</b><i>休</i></div><div class="cd wd"><b>7</b><i>18:00-21:00</i></div><div class="cd wd"><b>8</b><i>18:00-21:00</i></div><div class="cd wd"><b>9</b><i>18:00-21:00</i></div><div class="cd wd"><b>10</b><i>18:00-21:00</i></div><div class="cd wd"><b>11</b><i>18:00-21:00</i></div><div class="cd sa"><b>12</b><i>8:30-17:30</i></div><div class="cd off"><b>13</b><i>休</i></div><div class="cd wd"><b>14</b><i>18:00-21:00</i></div><div class="cd wd"><b>15</b><i>18:00-21:00</i></div><div class="cd wd"><b>16</b><i>18:00-21:00</i></div><div class="cd wd"><b>17</b><i>18:00-21:00</i></div><div class="cd wd"><b>18</b><i>18:00-21:00</i></div><div class="cd sa"><b>19</b><i>8:30-17:30</i></div><div class="cd off"><b>20</b><i>休</i></div><div class="cd wd"><b>21</b><i>18:00-21:00</i></div><div class="cd wd"><b>22</b><i>18:00-21:00</i></div><div class="cd wd"><b>23</b><i>18:00-21:00</i></div><div class="cd wd"><b>24</b><i>18:00-21:00</i></div><div class="cd wd"><b>25</b><i>18:00-21:00</i></div><div class="cd sa"><b>26</b><i>8:30-17:30</i></div><div class="cd off"><b>27</b><i>休</i></div><div class="cd wd"><b>28</b><i>18:00-21:00</i></div><div class="cd wd"><b>29</b><i>18:00-21:00</i></div><div class="cd wd"><b>30</b><i>18:00-21:00</i></div><div class="cd wd"><b>31</b><i>18:00-21:00</i></div></div>
+  <table class="mt">
+    <tr><td>平日（一～五）18:00-21:00</td><td class="c">23 天</td><td class="c">3hr × $200</td><td class="a">$13,800</td></tr>
+    <tr><td>週六 8:30-12:10 ＋ 12:40-17:30<br><span style="font-size:11px;color:#5F3DC4">含 16:00-17:30 魔術方塊跟課</span></td><td class="c">4 天</td><td class="c">8.5hr × $200</td><td class="a">$6,800</td></tr>
+    <tr class="tot"><td colspan="3">12 月合計</td><td class="a">$20,600</td></tr>
+  </table>
+</div>
+<div class="note">
+📌 <b>時數怎麼算</b>：週六 8:30-12:10 是 3 小時 40 分，12:40-17:30 是 4 小時 50 分，合計 <b>8.5 小時</b>；中間 30 分鐘休息不計薪。<br>
+📌 <b>國定假日照常上班</b> —— 中秋、國慶、行憲紀念日等國定假日都不休，一樣照班表上班。<b>唯一休息日是週日</b>。<br>
+📌 這份班表從 <b>9/1 起</b>生效，每週固定，到 <b>12/31</b> 為止。
+</div>
+
+<div class="foot">兆婷藝術學院　·　宜蘭市吉祥路 120 號　·　LINE @218iavpg</div>
 </body>
 </html>
